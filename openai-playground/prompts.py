@@ -90,8 +90,8 @@ response = client.chat.completions.create(
         {"role": "system", "content": "You are a creative writer."},
         {"role": "user", "content": "Write a creative tagline for a coffee shop."},
     ],
-    temperature=0.9,
-    top_p=0.9,
+    temperature=0.9, # controls the randomness of the output
+    top_p=0.9, # controls the diversity of the output
 )
 print("== Creative Tagline Response ==\n", response.choices[0].message.content, "\n")
 
@@ -104,7 +104,7 @@ response = client.chat.completions.create(
         {"role": "user", "content": "Write a 500-word blog post about your recent trip to Paris. Make sure to give a step-by-step itinerary of your trip."},
     ],
     temperature=0.9,
-    stream=True,
+    stream=True, # Enable streaming for real-time response
 )
 
 print("== Travel Blog Streaming Response ==")
