@@ -1,0 +1,9 @@
+[
+  { "role": "system", "content": "Previous conversation summarized: " },
+  { "role": "system", "content": "You are a helpful assistant." },
+  { "role": "user", "content": "who are you?" },
+  {
+    "role": "assistant",
+    "content": "I'm an artificial intelligence model known as Llama. Llama stands for \"Large Language Model Meta AI.\" I was developed by Meta, a technology company.\n\nI'm a large language model, which means I was trained on a massive dataset of text and can understand and generate human-like language. My primary function is to assist users with information and tasks, and I do this by responding to their queries or engaging in conversation.\n\nMy knowledge cutoff is the date I was last updated (01 Dec 2023), so while I can provide accurate and up-to-date information on a wide range of topics, I might not have the very latest information on extremely recent events."
+  }
+]
